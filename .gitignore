@@ -1,0 +1,27 @@
+# Environment
+.env
+fire_env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model weights
+models/
+*.pt
+
+# Captured frames
+frontend/static/captured_frames/
+
+# Logs
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

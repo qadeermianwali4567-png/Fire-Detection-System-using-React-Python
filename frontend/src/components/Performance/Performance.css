@@ -1,0 +1,234 @@
+.info-card {
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.info-card h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #ccc;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-card h3 img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.info-item .info-label {
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 4px;
+}
+
+.info-item .info-value {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.metrics-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.metric-card {
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 10px;
+  padding: 24px 20px;
+  text-align: center;
+  transition: border-color 0.2s;
+}
+
+.metric-card:hover {
+  border-color: #333;
+}
+
+.metric-card .icon {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin: 0 auto 12px;
+  display: block;
+}
+
+.metric-card .label {
+  font-size: 12px;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.metric-card .value {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 8px 0 4px;
+}
+
+.metric-card .subtitle {
+  font-size: 12px;
+  color: #444;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 4px;
+  background: #1a1a1a;
+  border-radius: 2px;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 1s ease;
+}
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.chart-card {
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.chart-card h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.chart-wrapper {
+  position: relative;
+  height: 240px;
+}
+
+.btn-record {
+  padding: 10px 20px;
+  background: #e53e3e;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-bottom: 24px;
+}
+
+.btn-record:hover {
+  background: #c53030;
+}
+
+.record-form {
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.record-form h3 {
+  font-size: 15px;
+  margin-bottom: 16px;
+  color: #ccc;
+}
+
+.form-inputs {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  font-size: 12px;
+  color: #555;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px 12px;
+  background: #0a0a0a;
+  border: 1px solid #222;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+  border-color: #e53e3e;
+}
+
+.form-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-save {
+  padding: 8px 20px;
+  background: #e53e3e;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-save:hover {
+  background: #c53030;
+}
+
+.btn-cancel {
+  padding: 8px 20px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #aaa;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-cancel:hover {
+  border-color: #555;
+  color: #fff;
+}
+
+.success-msg {
+  padding: 10px 16px;
+  background: rgba(72, 187, 120, 0.15);
+  border: 1px solid #48bb78;
+  border-radius: 6px;
+  color: #68d391;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
